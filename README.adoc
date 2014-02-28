@@ -1,6 +1,6 @@
 = goworks
 
-This is based on ExpressWorks from http://nodeschool.io
+This is based on http://nodeschool.io/#expressworks[ExpressWorks].
 
 To run tests:
 
@@ -16,6 +16,8 @@ goworks
 ----
 
 == Links
+
+amber (jade alternative) https://groups.google.com/forum/#!topic/golang-nuts/nZ2u2NwjGcU
 
 === Testing
 

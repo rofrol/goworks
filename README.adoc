@@ -34,3 +34,9 @@ Basic test http://golang.org/pkg/net/http/httptest/
 Testing many handlers https://groups.google.com/d/msg/golang-nuts/h3WHAhW4xcU/54vAsY1Tr18J
 
 Mock server http://stackoverflow.com/questions/16154999/how-to-test-http-calls-in-go-using-httptest
+
+== httptest POST Request
+
+http://stackoverflow.com/questions/19253469/make-a-url-encoded-post-request-using-http-newrequest
+http://stackoverflow.com/questions/16154999/how-to-test-http-calls-in-go-using-httptest
+http://stackoverflow.com/a/16156224/588759

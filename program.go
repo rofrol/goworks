@@ -38,8 +38,13 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	tpl.Execute(w, map[string]interface{}{"date": time.Now().Format("Mon Jan 2 2006")})
 }
 
+func staticHandler() http.Handler {
+	return http.StripPrefix("/public/", http.FileServer(http.Dir("./public")))
+}
+
 func main() {
 	http.HandleFunc("/home", http.HandlerFunc(hello))
 	http.HandleFunc("/form", http.HandlerFunc(form))
+	http.Handle("/public/", staticHandler())
 	http.ListenAndServe(":4000", nil)
 }
